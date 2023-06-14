@@ -12,19 +12,19 @@ module.exports = function (plop) {
         {
             type: 'add',
             path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.js',
-            templateFile: 'templates/ComponentTemplate.js',
+            templateFile: 'src/templates/ComponentTemplate.js',
         },
         {
             type: 'add',
             path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.stories.js',
-            templateFile: 'templates/ComponentTemplate.stories.js',
+            templateFile: 'src/templates/ComponentTemplate.stories.js',
         },
         {
             type: 'add',
             path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.scss',
-            templateFile: 'templates/ComponentTemplate.scss',
+            templateFile: 'src/templates/ComponentTemplate.scss',
         },
       ],
     });
-  };
+};
   
