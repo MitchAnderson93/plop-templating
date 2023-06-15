@@ -6,7 +6,7 @@
   "scripts": {
     "test": "playwright test --config=playwright.config.js",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook--windows": "rmdir /S /Q docs && storybook build && ren storybook-static docs"
   },
   "keywords": [],
   "author": "",
