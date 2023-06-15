@@ -6,6 +6,5 @@ export default {
 
 export const Default = () => html`
   <div class="{{pascalCase name}}">
-    <h1>{{pascalCase name}} Component</h1>
   </div>
 `;
